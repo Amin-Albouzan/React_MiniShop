@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# React Redux MiniShop 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Overview
 
-## Available Scripts
+Welcome to ReactReduxMiniShop, a streamlined E-Commerce application built with React and Redux. This application features product browsing, a shopping cart, and an admin panel for managing products. Designed with responsive layouts, it ensures a smooth experience on all devices. ReactReduxMiniShop integrates modern libraries like react-slick for carousels and SweetAlert2 for enhanced alerts, providing a user-friendly and efficient solution for small-scale online stores
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Product Listing**: Displays a list of products with details such as title, description, price, and image.
+- **Shopping Cart**: Allows users to add products to the cart, view cart items, and remove items from the cart.
+- **Admin Panel**: Enables admin users to add, edit, and delete products.
+- **Responsive Design**: Optimized for various screen sizes.
+- **Slick Carousel**: Utilizes `react-slick` for a carousel display of products.
+- **State Management**: Uses Redux for state management.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: Frontend library for building user interfaces.
+- **Redux**: State management library.
+- **React Router**: Library for routing.
+- **Redux Toolkit**: Toolset for efficient Redux development.
+- **Bootstrap**: CSS framework for responsive design.
+- **Slick Carousel**: Carousel component.
+- **SweetAlert2**: Library for beautiful alerts.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+   \`\`\`sh
+   git clone https://github.com/Amin-Albouzan/React-Redux_MiniShop-.git
+   cd React-Redux_MiniShop
+   \`\`\`
 
-### `npm run build`
+2. Install dependencies:
+   \`\`\`sh
+   npm install
+   \`\`\`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
+   \`\`\`sh
+   npm start
+   \`\`\`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. To run the mock API server, use json-server:
+   \`\`\`sh
+   json-server --watch data.json --port 7000
+   \`\`\`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Viewing Products
+- Navigate to the home page to see the list of available products.
+- Click on "Add to Cart" to add a product to your shopping cart.
+  
+![Viewing_Products](screenshots/Viewing_Products.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Managing Cart
+- Navigate to the cart page to view items in your cart.
+- Use the "Delete Cart" button to remove items from the cart.
+  
+![Managing_Cart](screenshots/Managing_Cart.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Admin Panel
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Add a New Product
+- Navigate to the admin page.
+- Use the "Add New Product" link to add a new product.
+- Fill in the product details such as title, description, price, and image.
+- Click "Save" to add the product to the list.
+  
+![Add_Product](screenshots/Add_Product.png)
 
-## Learn More
+![Add_Product2](screenshots/Add_Product2.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Edit and Delete Products
+- Navigate to the admin page.
+- To edit an existing product, click on the "Edit" button next to the product you wish to modify.
+- Update the necessary product details and click "Save" to apply the changes.
+- To delete a product, click on the "Delete" button next to the product you wish to remove
+  
+![all_product](screenshots/all_product.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![delete_Product](screenshots/delete_product.png)
