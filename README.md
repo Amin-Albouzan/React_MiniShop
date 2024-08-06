@@ -26,23 +26,23 @@ Welcome to ReactReduxMiniShop, a streamlined E-Commerce application built with R
 ## Installation
 
 1. Clone the repository:
-   \`\`\`sh
+   \`\`\`
    git clone https://github.com/Amin-Albouzan/React-Redux_MiniShop-.git
    cd React-Redux_MiniShop
    \`\`\`
 
 2. Install dependencies:
-   \`\`\`sh
+   \`\`\`
    npm install
    \`\`\`
 
 3. Start the development server:
-   \`\`\`sh
+   \`\`\`
    npm start
    \`\`\`
 
 4. To run the mock API server, use json-server:
-   \`\`\`sh
+   \`\`\`
    json-server --watch data.json --port 7000
    \`\`\`
 
