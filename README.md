@@ -1,4 +1,4 @@
-# React Redux MiniShop 
+# React_MiniShop
 
 # Overview
 
@@ -27,9 +27,10 @@ Welcome to ReactReduxMiniShop, a streamlined E-Commerce application built with R
 
 1. Clone the repository:
    \`\`\`
-   git clone https://github.com/Amin-Albouzan/React-Redux_MiniShop-.git
-   cd React-Redux_MiniShop
+   git clone https://github.com/Amin-Albouzan/React_MiniShop.git
    \`\`\`
+
+  \`\`\` cd React_MiniShop  \`\`\`
 
 2. Install dependencies:
    \`\`\`
